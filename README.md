@@ -1,6 +1,6 @@
 # AWS Cloud Architecture 3 - Capstone Project
 
-### <font color= yellowgreen>Scenario</font>
+### <font color= ##e32636>Scenario</font>
 Example Social Research Organization is a (fictitious) nonprofit organization that provides a website for social science researchers to obtain global development statistics. For example, visitors to the site can look up various data points, such as the life expectancy for any country in the world over the past 10 years.
 
 Shirley Rodriguez, a researcher at the nonprofit organization, developed the website. She thought it would be valuable to share the data that she had gathered with other researchers. Shirley stores the data in a MySQL database, and the data is available through a PHP website that she built. She initially published the site through a commercial hosting company that provides limited support for technical issues and security.
