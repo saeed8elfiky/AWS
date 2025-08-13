@@ -1,32 +1,11 @@
 # AWS Cloud Architecture 3 - Capstone Project
 
+
 ## Table of Contents
 
 1. [Scenario Overview](#Scenario)  
-   1.1 [Organization Background](#organization-background)  
-   1.2 [Current Website Setup](#current-website-setup)  
-   1.3 [Challenges Faced](#challenges-faced)  
-   1.4 [Goals for the New Architecture](#goals-for-the-new-architecture)  
-
 2. [Solution Summary](#solution-summary)  
-   2.1 [Secure Hosting of MySQL Database](#secure-hosting-of-mysql-database)  
-   2.2 [Secure Database Access](#secure-database-access)  
-   2.3 [Anonymous Web User Access](#anonymous-web-user-access)  
-   2.4 [Private EC2 Instance for Website Hosting](#private-ec2-instance-for-website-hosting)  
-   2.5 [High Availability via Load Balancer](#high-availability-via-load-balancer)  
-   2.6 [Auto Scaling with Launch Template](#auto-scaling-with-launch-template)  
-
 3. [Implementation Steps](#implementation-steps)  
-   3.1 [Creating RDS (Relational Database Service - MySQL)](#Creating-RDS (Relational Data Base))  
-   3.2 [Creating an Application Load Balancer](#creating-an-application-load-balancer)  
-   3.3 [Creating the Application Server in an Auto Scaling Group](#creating-the-application-server-in-an-auto-scaling-group)  
-   3.4 [Importing Data into RDS MySQL](#importing-data-into-rds-mysql)  
-   3.5 [Testing the Website](#testing-the-website)  
-
-4. [Verification & Next Steps](#verification--next-steps)  
-   4.1 [Website Functionality Test](#website-functionality-test)  
-   4.2 [Security Review](#security-review)  
-   4.3 [Scalability Check](#scalability-check)
 ---
 
 ### Scenario 
@@ -40,7 +19,7 @@ Shirley heard about AWS and initially moved her website and database to an EC2 i
 
 Shirley approached your team to make sure that her current design follows architectural best practices. She wants to make sure that she has a robust and secure website. One of your colleagues started the process of migrating the site to a more secure implementation, but they were reassigned to another project. Your tasks are to complete the implementation, make sure that the website is secure, and confirm that the website returns data from the query page.
 
-#### Solution: 
+### Solution: 
 - Provide secure hosting of the MySQL database.
     
 - Provide secure access to the database.
@@ -53,7 +32,8 @@ Shirley approached your team to make sure that her current design follows archit
     
 - Provide automatic scaling that uses a launch template.
 ---
-1. Creating-RDS (Relational Data Base)
+### Implementation-Steps
+1. Creating-RDS
 	- **RDS (MySQL)** >
 	- Keep the default settings
 	- Templates `SandBox`
@@ -145,3 +125,4 @@ Shirley approached your team to make sure that her current design follows archit
 	- open the link in a new tap 
 	- Choose query > choose any of these category 
 	- Submit
+
