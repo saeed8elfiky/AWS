@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-1. [Scenario Overview](#scenario-overview)  
+1. [Scenario Overview](#Scenario)  
    1.1 [Organization Background](#organization-background)  
    1.2 [Current Website Setup](#current-website-setup)  
    1.3 [Challenges Faced](#challenges-faced)  
