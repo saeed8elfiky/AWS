@@ -17,7 +17,7 @@
    2.6 [Auto Scaling with Launch Template](#auto-scaling-with-launch-template)  
 
 3. [Implementation Steps](#implementation-steps)  
-   3.1 [Creating RDS (Relational Database Service - MySQL)](#creating-rds-relational-database-service---mysql)  
+   3.1 [Creating RDS (Relational Database Service - MySQL)](#Creating-RDS (Relational Data Base))  
    3.2 [Creating an Application Load Balancer](#creating-an-application-load-balancer)  
    3.3 [Creating the Application Server in an Auto Scaling Group](#creating-the-application-server-in-an-auto-scaling-group)  
    3.4 [Importing Data into RDS MySQL](#importing-data-into-rds-mysql)  
@@ -53,7 +53,7 @@ Shirley approached your team to make sure that her current design follows archit
     
 - Provide automatic scaling that uses a launch template.
 ---
-1. Creating RDS (Relational Data Base)
+1. Creating-RDS (Relational Data Base)
 	- **RDS (MySQL)** >
 	- Keep the default settings
 	- Templates `SandBox`
