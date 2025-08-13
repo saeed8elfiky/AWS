@@ -1,5 +1,34 @@
 # AWS Cloud Architecture 3 - Capstone Project
 
+## Table of Contents
+
+1. [Scenario Overview](#scenario-overview)  
+   1.1 [Organization Background](#organization-background)  
+   1.2 [Current Website Setup](#current-website-setup)  
+   1.3 [Challenges Faced](#challenges-faced)  
+   1.4 [Goals for the New Architecture](#goals-for-the-new-architecture)  
+
+2. [Solution Summary](#solution-summary)  
+   2.1 [Secure Hosting of MySQL Database](#secure-hosting-of-mysql-database)  
+   2.2 [Secure Database Access](#secure-database-access)  
+   2.3 [Anonymous Web User Access](#anonymous-web-user-access)  
+   2.4 [Private EC2 Instance for Website Hosting](#private-ec2-instance-for-website-hosting)  
+   2.5 [High Availability via Load Balancer](#high-availability-via-load-balancer)  
+   2.6 [Auto Scaling with Launch Template](#auto-scaling-with-launch-template)  
+
+3. [Implementation Steps](#implementation-steps)  
+   3.1 [Creating RDS (Relational Database Service - MySQL)](#creating-rds-relational-database-service---mysql)  
+   3.2 [Creating an Application Load Balancer](#creating-an-application-load-balancer)  
+   3.3 [Creating the Application Server in an Auto Scaling Group](#creating-the-application-server-in-an-auto-scaling-group)  
+   3.4 [Importing Data into RDS MySQL](#importing-data-into-rds-mysql)  
+   3.5 [Testing the Website](#testing-the-website)  
+
+4. [Verification & Next Steps](#verification--next-steps)  
+   4.1 [Website Functionality Test](#website-functionality-test)  
+   4.2 [Security Review](#security-review)  
+   4.3 [Scalability Check](#scalability-check)
+---
+
 ### Scenario 
 Example Social Research Organization is a (fictitious) nonprofit organization that provides a website for social science researchers to obtain global development statistics. For example, visitors to the site can look up various data points, such as the life expectancy for any country in the world over the past 10 years.
 
