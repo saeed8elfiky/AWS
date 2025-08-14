@@ -19,6 +19,11 @@ Shirley heard about AWS and initially moved her website and database to an EC2 i
 
 Shirley approached your team to make sure that her current design follows architectural best practices. She wants to make sure that she has a robust and secure website. One of your colleagues started the process of migrating the site to a more secure implementation, but they were reassigned to another project. Your tasks are to complete the implementation, make sure that the website is secure, and confirm that the website returns data from the query page.
 
+<p align="center">
+<img src= "imgs/aws-arch-capstone.png" width ="500">
+</p>
+
+
 ### Solution: 
 - Provide secure hosting of the MySQL database.
     
